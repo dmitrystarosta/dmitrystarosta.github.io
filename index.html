@@ -7,6 +7,9 @@
   <!-- Подтверждение прав в Яндекс.Вебмастере (проверяется именно здесь, в корне хоста) -->
   <meta name="yandex-verification" content="6434f0739ef9240c" />
 
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#191612" media="(prefers-color-scheme: dark)">
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,6 +28,11 @@
       font-family:-apple-system,Segoe UI,Arial,sans-serif;text-decoration:none;font-size:17px}
     a:hover{text-decoration:underline}
     p{font-size:22px;margin:0}
+
+    @media (prefers-color-scheme: dark){
+      body{background:#191612;color:#e8e2d6}
+      a{color:#a58bf0}
+    }
   </style>
 </head>
 <body>
